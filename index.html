@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><style>
-  body { background:#0b0f14; color:#e6e6e6; font-family: Arial, Helvetica, sans-serif; }
-  .btn {
-    display:block;
-    margin:12px 0;
-    padding:14px;
-    text-align:center;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:700;
-  }
-  .btn.primary { background:#1f6feb; color:#fff; }
-  .btn.secondary { background:#374151; color:#fff; }
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <base href="/k2b-verify/">
+  <title>Verify K2B</title>
+
+  <style>
+    body {
+      background:#0b0f14;
+      color:#e6e6e6;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    .btn {
+      display:block;
+      margin:12px 0;
+      padding:14px;
+      text-align:center;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:700;
+    }
+    .btn.primary { background:#1f6feb; color:#fff; }
+    .btn.secondary { background:#374151; color:#fff; }
+    .muted { opacity:0.7; font-size:0.9em; }
+  </style>
+</head>
 </style>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -59,18 +72,28 @@
 </html>
 <h2>Locks (Streamflow)</h2>
 
-<a class="btn secondary" href="https://app.streamflow.finance/contract/solana/mainnet/5P7kHAQc8eUAMPnhmxrcekrJ6Mi9NUcTZsYVY3jugomk" target="_blank" rel="noopener noreferrer">
+<a class="btn secondary"
+   href="https://app.streamflow.finance/contract/solana/mainnet/LP_LOCK_ID"
+   target="_blank">
   View LP Lock on Streamflow
 </a>
 
-<a class="btn secondary" href="https://app.streamflow.finance/contract/solana/mainnet/DhPS19jFRTSecSUvjyU3Z8vVSnxdLdf1n5spzit7YPfC" target="_blank" rel="noopener noreferrer">
+<a class="btn secondary"
+   href="https://app.streamflow.finance/contract/solana/mainnet/LARGEST_LOCK_ID"
+   target="_blank">
   View Largest Token Lock
 </a>
 
-<a class="btn secondary" href="https://app.streamflow.finance/contract/solana/mainnet/6tLvzGQL7em8wKnvwG3Gy6iqrcQJjoAwEvZtYFA759qf" target="_blank" rel="noopener noreferrer">
+<a class="btn secondary"
+   href="https://app.streamflow.finance/contract/solana/mainnet/SECOND_LARGEST_LOCK_ID"
+   target="_blank">
   View Second Largest Token Lock
-</a>of 
+</a>
 
 <p class="muted">
-Additional smaller token locks exist via Streamflow and are verifiable on-chain.
+  Additional smaller token locks exist via Streamflow and are verifiable on-chain.
 </p>
+
+</div>
+</body>
+</html>
